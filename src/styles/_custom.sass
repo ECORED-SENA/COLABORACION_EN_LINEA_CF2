@@ -12,11 +12,13 @@
   &--3
     background-color: $color-acento-contenido !important
     &-claro
-      background-color: lighten($color-acento-contenido, 10% ) !important
+      background-color: #D5FFF2 !important
+    &-claro-2
+      background-color: #EEFFFA !important
   &--4
     background-color: $color-acento-botones !important
     &-claro
-      background-color: lighten($color-acento-botones, 30% ) !important
+      background-color: #FFF6D1 !important
 .color
   &--1
     color: $color-primario !important
@@ -35,7 +37,17 @@
     &-claro
       color: lighten($color-acento-botones, 30% ) !important
 .contenedor
+  margin-top: 200px !important
   position: relative
+  .avatar
+    display: flex
+    img
+      margin: 0 auto
+      width: 200px !important
+      display: none
+      @media (max-width: $bp-max-md)
+        display: block
+
   .contenedor-img
     &__1
       position: absolute
@@ -45,6 +57,41 @@
       position: absolute
       bottom: 0
       right: 0
+    &__3
+      position: absolute
+      bottom: 0
+      left: 0
+    &__4
+      position: absolute
+      top: -30px
+      left: 0
+    &__5
+      position: absolute
+      bottom: 0
+      left: 0
+    &__6
+      position: absolute
+      bottom: 0
+      left: 100px
+    &__7
+      position: absolute
+      bottom: -60px
+      left: 0px
+    &__8
+      position: absolute
+      bottom: 0
+      left: 0px
+    &__9
+      position: absolute
+      bottom: -70px
+      left: 38%
+    @media (max-width: $bp-max-md)
+      &__1, &__2, &__3, &__4, &__5, &__6, &__7, &__8, &__9, 
+        display: none
+  .contenedor-img__1
+        display: none
+      
+  .contenedor-img__1
 .slyder__btn
   background-color: #DBCFE7
   margin-left: 5px
@@ -76,4 +123,10 @@
   tbody
     tr:nth-child(even)
       background-color: #FFF6D1
+.hover
+  transition: transform .4s ease-in-out
+  &:hover
+    transform: scale(1.1)
+.titulo-principal__numero span
+  color: $color-sistema-texto
   
