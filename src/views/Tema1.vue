@@ -328,6 +328,7 @@
             img(src='@/assets/curso/31.svg' alt='AvatarTop')
           .mt-5
             h3 Director de marketing 
+            p.mb-0 Crea campañas de promoción de productos y servicios. Tiene dominio de varios idiomas. Tiene gran conocimiento de todos los medios y canales digitales.
     #t_1_4.titulo-segundo(data-aos='fade-right')
       h2 1.4 Tipos de identidad digital
     
