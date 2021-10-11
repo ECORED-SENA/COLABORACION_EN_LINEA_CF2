@@ -37,7 +37,10 @@
     &-claro
       color: lighten($color-acento-botones, 30% ) !important
 .contenedor
-  margin-top: 200px !important
+  border-radius: 100px 0px 100px 0px
+  @media (min-width: $bp-min-lg)
+    margin-top: 80px !important
+    margin-bottom: 100px !important
   position: relative
   .avatar
     display: flex

@@ -11,10 +11,14 @@
       .contenedor-img__1: img(src='@/assets/curso/1.png', alt='Texto que describa la imagen' style='width: 196px')
       .row.justify-content-end
         .col-lg-9
-          .texto-adorno
+          .texto
             p.h1.fw-normal 
               b ¿Conoces cómo impacta tu identidad digital el comportamiento en la red? 
               | Ingresa al siguiente recurso para que conozcas su impacto y cómo gestionar tu privacidad.
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     br
     br
     SlyderB.my-5(:datos="datosSlyder")(data-aos='zoom-in-up')
@@ -27,10 +31,14 @@
         .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
         .row.justify-content-start
           .col-lg-8
-            .texto-adorno
+            .texto
               p.h1.fw-normal
                 b ¿Conoces qué son los perfiles digitales y el impacto que estos tienen para tu vida? 
                 | En el siguiente recurso se realiza una exploración sobre la presencia que se tiene en la era digital.
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
         .contenedor-img__2: img(src='@/assets/curso/8.png', alt='Texto que describa la imagen' style='width: 337px')
     TabsA.color-acento-contenido.mb-5
       .tarjeta.bg--1-claro.p-4(titulo="La presencia digital ").p-5
@@ -100,10 +108,14 @@
       .contenedor-img__3: img(src='@/assets/curso/11.svg', alt='Texto que describa la imagen' style='width: 295px')
       .row.justify-content-end
         .col-lg-9
-          .texto-adorno
+          .texto
             p.h1.fw-normal 
               b ¿Sabías qué la información en la red es conocida de forma personal y directa, haciendo esto una visión de identidad pública? 
               | En el siguiente recurso, conocerás la diferencia entre un perfil digital público y uno privado. 
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     figure.mb-5(data-aos='zoom-in-up')
       img(src='@/assets/curso/12.svg', alt='Información sobre perfiles')
     p.mb-5 Ahora analiza, 
@@ -190,8 +202,12 @@
       .contenedor-img__4.d-none.d-lg-block: img(src='@/assets/curso/24.svg', alt='Texto que describa la imagen' style='width: 295px')
       .row.justify-content-end
         .col-lg-9
-          .texto-adorno
+          .texto
             p.h1.fw-normal ¿Sabes que existen muchos elementos con los cuales puedes construir tu identidad digital en las diferentes plataformas comunicativas y colaborativas? 
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     .row.justify-content-end.mb-5
       .col-lg-8
         p.mb-3 Estos elementos son:
@@ -333,12 +349,16 @@
       h2 1.4 Tipos de identidad digital
     
     .contenedor.bg--2-claro-2.p-5.my-5
-      .contenedor-img__5: img(src='@/assets/curso/32.svg', alt='Texto que describa la imagen' style='width: 582px')
+      .contenedor-img__5: img(src='@/assets/curso/32.svg', alt='Texto que describa la imagen' style='width: 480px')
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .row.justify-content-end
-        .col-lg-6
-          .texto-adorno
+        .col-lg-7
+          .texto
             p.h1.fw-normal.mb-5 ¿Sabes por qué es importante conocer los tipos de identidad digital? 
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -442,11 +462,15 @@
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__5: img(src='@/assets/curso/45.svg', alt='Texto que describa la imagen' style='width: 370px')
       .row.justify-content-end
-        .col-lg-9
-          .texto-adorno
+        .col-lg-8
+          .texto
             p.h1.fw-normal.mb-5 
               b ¿Sabes que la identidad digital tiene diferentes tipos y que estos posibilitan su integración en los ámbitos profesionales y sociales? 
               | En el siguiente recurso, podrás conocer sobre estos tipos. 
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     TabsD.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Personal o social" :icono="require('@/assets/curso/34.svg')" :icono2="require('@/assets/curso/35.svg'  )" )
         .row.p-5
@@ -491,8 +515,12 @@
       .contenedor-img__6: img(src='@/assets/curso/53.svg', alt='Texto que describa la imagen' style='width: 293px')
       .row.justify-content-end
         .col-lg-7
-          .texto-adorno
+          .texto
             p.h1.fw-normal.mb-5 ¿Conoces sobre los usos y el consumo de los contenidos digitales? 
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     p.mb-5 Estos contenidos pueden ser variados, debido a la gran influencia de los medios digitales que encuentras en el mundo virtual y digital. La identidad se puede determinar, de muchas maneras, teniendo en cuenta los contenidos, cómo los consumes y la frecuencia con que lo haces, que son los factores determinantes para analizar tus comportamientos digitales. A continuación, podrás profundizar un poco más sobre el tema.
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Redes sociales")
@@ -558,8 +586,12 @@
       .contenedor-img__7: img(src='@/assets/curso/61.svg', alt='Texto que describa la imagen' style='width: 293px')
       .row.justify-content-end
         .col-lg-9
-          .texto-adorno
+          .texto
             p.h1.fw-normal.mb-5 ¿Sabías que los datos personales se refieren a toda la información que identifique a un individuo o persona?  
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     p.my-5 Estos datos hacen referencia a tu número de identificación, dónde naciste, tu edad, sexo, estado civil, qué has estudiado, dónde trabajas, e incluso mucha información sensible que solo te compete a ti, como tus preferencias sexuales, tu personalidad, cómo has estado de salud últimamente, qué religión profesas, entre otra, e innumerables características que hacen tu “YO”. Hay que tener presente que no todos los datos pueden ser compartidos; además, se requiere de tu autorización para que puedan ser utilizados.
     .borders.py-3.mb-5
       .row.mb-5.justify-content-between.align-items-center
@@ -605,8 +637,12 @@
       .contenedor-img__8: img(src='@/assets/curso/63.svg', alt='Texto que describa la imagen' style='width: 293px')
       .row.justify-content-end
         .col-lg-9
-          .texto-adorno
-            p.h1.fw-normal.mb-5 ¿Sabías que para comunicarte de manera adecuada en la red debes seguir las siguientes reglas? 
+          .texto
+            p.h1.fw-normal.mb-5 ¿Sabías que para comunicarte de manera adecuada en la red debes seguir las siguientes reglas?
+            .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     .tarjeta.bg--3-claro-2.p-4.mb-5
       LineaTiempoC.color-primario(text-small)
         .row(titulo="1")
