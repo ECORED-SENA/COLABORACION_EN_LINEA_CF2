@@ -41,11 +41,11 @@
                   |  Your browser does not support the audio tag.
         .contenedor-img__2: img(src='@/assets/curso/8.png', alt='Texto que describa la imagen' style='width: 337px')
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.bg--1-claro.p-4(titulo="La presencia digital ").p-5
-        h4 La presencia digital 
+      .tarjeta.bg--1-claro.p-4(titulo="La presencia digital en el mundo ").p-5
+        h4 La presencia en el mundo digital 
         p Tener presencia en el mundo o en la era digital a la cual te enfrentas hoy en día, y, más aún, poder crear valor frente aquello que se te presenta responde a una serie de características propias y sociales, que van desde cómo te comportas en dicho mundo, diciendo quién eres, e igualmente, cómo quieres que te vean, y por último, y más importante aún, cómo te ven. Estos aspectos hacen que se generen modelos y patrones que interfieren en tus rasgos digitales.
-      .tarjeta.bg--1-claro.p-4(titulo="Consumo de contenidos").p-5
-        h4 Consumo de contenidos
+      .tarjeta.bg--1-claro.p-4(titulo="Consumo de contenidos digitales").p-5
+        h4 Consumo de contenidos digitales
         p El consumo de todos los contenidos que se te presentan con las plataformas digitales, desde redes sociales, buscadores, sitios o portales web, apps móviles, videoconferencias, entre otras, va generando datos intrínsecos, que hacen dejar huella de tu información y así crear un perfil digital, sin saberlo, de forma inconsciente. Es por ello que es importante que estés consciente de qué se trata y cómo gestionarlo, para evitar riesgos y amenazas.
       .tarjeta.bg--1-claro.p-4(titulo="Transformaciones digitales").p-5
         h4 Transformaciones digitales
@@ -60,8 +60,7 @@
           table.tabla_personalizada
             thead
               tr
-                th.bg--3 
-                  img(src='@/assets/curso/9.svg', alt='Texto que describa la imagen' style='width: 105px').m-auto
+                th.bg--3                   img(src='@/assets/curso/9.svg', alt='Texto que describa la imagen' style='width: 105px').m-auto
                   h3 PÚBLICO
             tbody
               tr
@@ -127,7 +126,7 @@
       .col-lg-10
         figure.mb-5(data-aos='zoom-in-up')
           img(src='@/assets/curso/13.svg', alt='Diferencias de los perfiles')
-    p.mb-5 Hoy en día, todos tienen una identidad digital. Con la aparición de los dispositivos móviles y el uso masivo de los mismos, dejas rastros de información personal en todo momento; por lo tanto, es necesario desarrollar algunas habilidades digitales que debe tener el ciudadano del siglo XXI; las cuales se requiere apropiar con una actitud:
+    p.mb-5 Hoy en día, todos tienen una identidad digital. Con la aparición de los dispositivos móviles y el uso masivo de los mismos, dejas rastros de información personal en todo momento; por lo tanto, es necesario desarrollar algunas habilidades digitales que debe tener el ciudadano del siglo XXI; las cuáles se requiere apropiar con una actitud:
     .row.mb-5.justify-content-center
       .col-lg-6
         .row.justify-content-center.g-5
@@ -189,7 +188,10 @@
     p.mb-5 Por ende, desde este modelo planteado por Fanny Georges, un individuo, una organización o cualquier participante activo de Internet puede tener diferentes identidades con las características propias de su comportamiento.
       br
       br
-      |La construcción de una identidad puede verse desde las participaciones activas positivas o desacertadas de cómo te comportas en la red, y dichos patrones se verán reflejados en tu reputación y la privacidad de tu información, que, gestionados de manera efectiva, desarrollan habilidades y conciencia del impacto que tiene la información que se publica sobre ti para minimizar en todo lo posible los riesgos y amenazas.
+    .row.justify-content-center
+      .col-lg-10
+        .cajon.color-primario.bg--1-claro.p-4.mb-4
+          p La construcción de una identidad puede verse desde las participaciones activas positivas o desacertadas de cómo te comportas en la red, y dichos patrones se verán reflejados en tu reputación y la privacidad de tu información, que, gestionados de manera efectiva, desarrollan habilidades y conciencia del impacto que tiene la información que se publica sobre ti para minimizar en todo lo posible los riesgos y amenazas.
       br
       br
       |En la siguiente gráfica, se brinda una posible ruta sobre cómo tener una buena reputación digital.
@@ -256,13 +258,13 @@
             .lista-numerada__numero.p-4
               h2.text-white.mb-0 9
             .lista-numerada__texto.ms-2
-              p.mb-0 Pasatiempos y aficiones.
+              p.mb-0 Preferencias políticas, religiosas o sexuales.
           .lista-numerada.d-flex.align-items-center.mb-2
             .lista-numerada__numero.p-4
               h2.text-white.mb-0 10
             .lista-numerada__texto.ms-2
               p.mb-0 Geolocalización. 
-    p.mb-5 Igualmente, además de la información que entregas en los medios digitales, ten en cuenta que hay datos inherentes y subjetivos que hacen y forman parte de tu presencia digital en la red, como:
+    p.mb-5 Igualmente, además de la información que entregas en los medios digitales, ten en cuenta que hay <b>datos inherentes y subjetivos que hacen y forman parte de tu presencia digital en la red</b>, como:
     ol.lista-ol--cuadro.mb-5
         li 
           .lista-ol--cuadro__vineta
@@ -365,7 +367,8 @@
           .bloque-texto-g__img.p-5.d-flex
             img(src="@/assets/curso/33.svg" style="width: 277px").m-auto
           .bloque-texto-g__texto.p-4
-            p.mb-0 Antes de entrar a mirar los tipos de identidad que existen en el mundo digital, es importante que conozcas que las experiencias online de cada uno de los usuarios son diferentes y toman actitudes propias evaluadas desde su comportamiento en la red, desde la hiperactividad en todos sus servicios hasta incluso la ausencia total de participación. Como sabes, las interacciones digitales son cada vez más rápidas e inmersivas, este tipo de comunicaciones se hacen cada vez más masivas, y las conexiones síncronas son más frecuentes y enriquecedoras, porque el estar en tiempo real, no solo en voz sino en audio y video, hace que la experiencia sea mucho más atractiva e incluso adictiva.
+            p.mb-0
+              b  Antes de entrar a mirar los tipos de identidad que existen en el mundo digital, es importante que conozcas que las experiencias online de cada uno de los usuarios son diferentes y toman actitudes propias evaluadas desde su comportamiento en la red, desde la hiperactividad en todos sus servicios hasta incluso la ausencia total de participación. Como sabes, las interacciones digitales son cada vez más rápidas e inmersivas, este tipo de comunicaciones se hacen cada vez más masivas, y las conexiones síncronas son más frecuentes y enriquecedoras, porque el estar en tiempo real, no solo en voz sino en audio y video, hace que la experiencia sea mucho más atractiva e incluso adictiva.
     p.mb-5 La identidad digital ofrece muchas más posibilidades para interactuar con más elementos que se parecen a la realidad tangible de interrelacionarse, debido a que puedes saber qué piensan, sienten, hacen o creen las personas con las que te relacionas, y ello contribuye, sin lugar a dudas, a construir y poder configurar tu propia identidad digital e, igualmente, la colectiva, dentro de un grupo social, a pesar de que dicha identidad puede ser inexacta, debido paradójicamente a la gran cantidad de información. Las características de la identidad digital son:
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -449,7 +452,7 @@
               .row
                 .col-lg-4: img(src='@/assets/curso/44.jpg')
                 .col-lg-8
-                  h4 Todo lo que se publique o publique alguien, generalmente, es por referencias y comentarios.
+                  h4 Es compuesta
                   p La identidad digital se constituye por el conjunto de aportes de la persona y de los demás que están inmersos como contactos, sin la participación o consentimiento de quien publica una información.
 
           button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
@@ -547,7 +550,7 @@
           .col-md-7.mb-4.mb-md-0
             h4 Portales de noticias y sitios web
             p Todos los documentos electrónicos que visitas en la red pueden generar una identidad digital. A través de las suscripciones, entregas datos personales, que pueden ser recuperados para observar tu comportamiento; luego, buscadores como Google o Bing los indexan y te presentan contenido, según tu preferencia, para que lo consumas, desde artículos, productos y servicios, hasta tu música favorita.
-      .py-3.py-md-4(titulo="Correo")
+      .py-3.py-md-4(titulo="Correo electrónico")
         .row.px-5
           .col-md-5
             figure
@@ -578,7 +581,8 @@
           .bloque-texto-g__img.d-flex
             img(src="@/assets/curso/60.svg" style="width: 272px").m-auto
           .bloque-texto-g__texto.p-4
-            p.mb-0 Se debe potenciar el uso de dispositivos móviles, convirtiéndolos en tus mejores compañeros de viaje, de trabajo, de cómo te relacionas, de cómo verdaderamente ha cambiado la forma como haces presencia ante los demás, y es así como hoy en día ves más gente sobre una pantalla que teniendo relaciones interpersonales, lo que sin lugar a dudas constituye un fenómeno social imparable.
+            p.mb-0
+              b  Se debe potenciar el uso de dispositivos móviles, convirtiéndolos en tus mejores compañeros de viaje, de trabajo, de cómo te relacionas, de cómo verdaderamente ha cambiado la forma como haces presencia ante los demás, y es así como hoy en día ves más gente sobre una pantalla que teniendo relaciones interpersonales, lo que sin lugar a dudas constituye un fenómeno social imparable.
     #t_1_6.titulo-segundo(data-aos='fade-right')
       h2 1.6 Leyes y tratamiento de datos
     .contenedor.bg--2-claro-2.p-5.mb-5
@@ -595,7 +599,7 @@
     p.my-5 Estos datos hacen referencia a tu número de identificación, dónde naciste, tu edad, sexo, estado civil, qué has estudiado, dónde trabajas, e incluso mucha información sensible que solo te compete a ti, como tus preferencias sexuales, tu personalidad, cómo has estado de salud últimamente, qué religión profesas, entre otra, e innumerables características que hacen tu “YO”. Hay que tener presente que no todos los datos pueden ser compartidos; además, se requiere de tu autorización para que puedan ser utilizados.
     .borders.py-3.mb-5
       .row.mb-5.justify-content-between.align-items-center
-        .col-lg-5
+        .col-xl-5.mb-5
           .bloque-texto-b.color-primario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
@@ -604,8 +608,9 @@
               br
               p.text-end William Shakespeare
               i.fas.fa-quote-right
-        .col-lg-6
-          p Cuánta razón tenía Shakespeare cuando escribió esta frase tan célebre y que, en el mundo digital, es tan aplicable. Sin embargo, tú vas entregando todos tus datos personales a cualquiera, sin comprender cuánto daño pueden hacerte. Es por ello que, al crear tu identidad digital, es necesario que la estructures y analices dónde entregas tus datos personales; para ello, debes apropiar conocimientos sobre cada uno de los datos que existen, para que te detengas a pensar con calma la próxima vez que ingreses tu información en la red.
+        .col-xl-6
+          p
+            b Cuánta razón tenía Shakespeare cuando escribió esta frase tan célebre y que, en el mundo digital, es tan aplicable. Sin embargo, tú vas entregando todos tus datos personales a cualquiera, sin comprender cuánto daño pueden hacerte. Es por ello que, al crear tu identidad digital, es necesario que la estructures y analices dónde entregas tus datos personales; para ello, debes apropiar conocimientos sobre cada uno de los datos que existen, para que te detengas a pensar con calma la próxima vez que ingreses tu información en la red.
     p.mb-5 Cabe resaltar que la información que entregas es necesaria para que puedas interactuar con los demás, como ser social y perteneciente a una comunidad, es lo que te individualiza como persona frente al resto de la sociedad; esto hace que la información sea necesaria para construir el desarrollo económico de un país y  que “existas”, para poder ejercer tanto tus derechos como tus deberes. Debes, por lo tanto, entender qué tipos de datos existen:
     .row.mb-5
       .col-lg-3.mb-4
@@ -624,14 +629,15 @@
         .tarjeta.bg--3.p-4.h-100.hover
           h4 Dato sensible
           p El de mayor cuidado. Hacen parte de tu personalidad muy íntima, y tu salud mental y psicológica puede verse afectada si son manipulados por terceros con malas intenciones.
-    p.mb-5 En Colombia existe la Ley 1581 de 2012, por la cual se rigen todas las disposiciones para la protección de datos personales, se invita a que la revises para que puedas saber cómo el estado te protege y para que no sean vulnerados tus derechos, de igual manera, para que puedas cumplir tus deberes como un buen ciudadano. A veces pensamos que, en Internet, “todo se vale”, pero no, los países han reglado y dictado normas para el buen uso de la información personal y sensible, asimismo, existen normas de comportamiento propias de los medios digitales, como la netiqueta.
+    p.mb-5 En Colombia existe la Ley 1581 de 2012, por la cual se rigen todas las disposiciones para la protección de datos personales, se invita a que la revises para que puedas saber cómo el estado te protege y para que no sean vulnerados tus derechos, de igual manera, para que puedas cumplir tus deberes como un buen ciudadano. A veces pensamos que, en Internet, <b>“todo se vale”</b>, pero no, los países han reglado y dictado normas para el buen uso de la información personal y sensible, asimismo, existen normas de comportamiento propias de los medios digitales, como la <b>netiqueta</b>.
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img.d-flex
             img(src="@/assets/curso/62.svg" style="width: 272px").m-auto
           .bloque-texto-g__texto.p-4
-            p.mb-0 La netiqueta son las normas de comportamiento en Internet. Todo acto de comunicación debe de tener sus normas, hacen parte de la “buena educación” que debes de tener cuando interactúas con un individuo o un grupo de personas en la red, sobre todo, de forma escrita, la cual puede ser entendida, interpretada o malinterpretada, ya que la oralidad tiene ciertas características que permiten vislumbrar mejor los procesos comunicativos. Debes de tener en cuenta que las palabras son la mejor arma del ser humano, y aquí aprenderás cuáles son las normas para poder comunicarte en todo medio digital.
+            p.mb-0
+              b La netiqueta son las normas de comportamiento en Internet. Todo acto de comunicación debe de tener sus normas, hacen parte de la “buena educación” que debes de tener cuando interactúas con un individuo o un grupo de personas en la red, sobre todo, de forma escrita, la cual puede ser entendida, interpretada o malinterpretada, ya que la oralidad tiene ciertas características que permiten vislumbrar mejor los procesos comunicativos. Debes de tener en cuenta que las palabras son la mejor arma del ser humano, y aquí aprenderás cuáles son las normas para poder comunicarte en todo medio digital.
     .contenedor.bg--4-claro.p-5.mb-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__8: img(src='@/assets/curso/63.svg', alt='Texto que describa la imagen' style='width: 293px')
@@ -643,6 +649,7 @@
                 audio(controls='')
                   source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
+    h3(data-aos='fade-right') Netiqueta comportamiento en la web
     .tarjeta.bg--3-claro-2.p-4.mb-5
       LineaTiempoC.color-primario(text-small)
         .row(titulo="1")
@@ -711,7 +718,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4.mb-4
-          p Este contexto que se propone emerge de factores y retos que debes de afrontar al pertenecer a la familia digital mundial, para poder manejar con la mayor entereza toda la información que encuentres, donde se redefine continuamente el intercambio rápido y eficiente de conocimiento e información, sin importar tiempo o lugar, como lo has visto dentro de estos contextos. 
+          p
+            b Este contexto que se propone emerge de factores y retos que debes de afrontar al pertenecer a la familia digital mundial, para poder manejar con la mayor entereza toda la información que encuentres, donde se redefine continuamente el intercambio rápido y eficiente de conocimiento e información, sin importar tiempo o lugar, como lo has visto dentro de estos contextos. 
     figure.mb-5(data-aos='zoom-in-up')
       img(src='@/assets/curso/74.svg')
     p.mb-5 Las personas, organizaciones y asociaciones públicas o privadas han tenido un crecimiento en respuesta a los nuevos mercados globalizados que hacen impulsar que el conocimiento es público, y debes de trasladar tu comportamiento a los medios digitales con responsabilidad y ética, para lo cual debes apropiar ciertos principios que te servirán para poder hacer uso de la información: 

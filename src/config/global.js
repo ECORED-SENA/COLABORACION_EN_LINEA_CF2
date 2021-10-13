@@ -207,8 +207,10 @@ export default {
         'opiniones, comentarios o calificaciones de una persona o empresa que está presente en Internet.',
     },
     {
-      termino: 'Reputación online ',
-      significado: 'Youtuber',
+      termino: 'Youtuber',
+      terminoHtml: '<i>Youtuber</i>',
+      significado:
+        'llamados también influenciadores digitales, son las personas que suben contenidos a Internet para poder compartirlos en plataformas digitales como YouTube.',
     },
   ],
   complementario: [
@@ -318,7 +320,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Maria Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
