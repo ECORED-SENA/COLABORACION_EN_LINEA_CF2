@@ -15,10 +15,6 @@
         p.h1.fw-normal
           b ¿Sabes cómo se puede definir la identidad digital desde la interacción con los demás y su entorno? 
           | Ingresa al siguiente curso para que conozcas sobre ello. 
-        .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
       .contenedor-img
         img(src='@/assets/curso/0.png', alt='Imagen decorativa')
     figure.mb-5

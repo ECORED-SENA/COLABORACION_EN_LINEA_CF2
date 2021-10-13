@@ -17,7 +17,7 @@
               | Ingresa al siguiente recurso para que conozcas su impacto y cómo gestionar tu privacidad.
             .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A1.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     br
     br
@@ -35,10 +35,6 @@
               p.h1.fw-normal
                 b ¿Conoces qué son los perfiles digitales y el impacto que estos tienen para tu vida? 
                 | En el siguiente recurso se realiza una exploración sobre la presencia que se tiene en la era digital.
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
         .contenedor-img__2: img(src='@/assets/curso/8.png', alt='Texto que describa la imagen' style='width: 337px')
     TabsA.color-acento-contenido.mb-5
       .tarjeta.bg--1-claro.p-4(titulo="La presencia digital en el mundo ").p-5
@@ -60,7 +56,8 @@
           table.tabla_personalizada
             thead
               tr
-                th.bg--3                   img(src='@/assets/curso/9.svg', alt='Texto que describa la imagen' style='width: 105px').m-auto
+                th.bg--3                   
+                  img(src='@/assets/curso/9.svg', alt='Texto que describa la imagen' style='width: 105px').m-auto
                   h3 PÚBLICO
             tbody
               tr
@@ -111,10 +108,6 @@
             p.h1.fw-normal 
               b ¿Sabías qué la información en la red es conocida de forma personal y directa, haciendo esto una visión de identidad pública? 
               | En el siguiente recurso, conocerás la diferencia entre un perfil digital público y uno privado. 
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     figure.mb-5(data-aos='zoom-in-up')
       img(src='@/assets/curso/12.svg', alt='Información sobre perfiles')
     p.mb-5 Ahora analiza, 
@@ -208,7 +201,7 @@
             p.h1.fw-normal ¿Sabes que existen muchos elementos con los cuales puedes construir tu identidad digital en las diferentes plataformas comunicativas y colaborativas? 
             .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A2.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     .row.justify-content-end.mb-5
       .col-lg-8
@@ -357,10 +350,6 @@
         .col-lg-7
           .texto
             p.h1.fw-normal.mb-5 ¿Sabes por qué es importante conocer los tipos de identidad digital? 
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -470,10 +459,6 @@
             p.h1.fw-normal.mb-5 
               b ¿Sabes que la identidad digital tiene diferentes tipos y que estos posibilitan su integración en los ámbitos profesionales y sociales? 
               | En el siguiente recurso, podrás conocer sobre estos tipos. 
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     TabsD.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Personal o social" :icono="require('@/assets/curso/34.svg')" :icono2="require('@/assets/curso/35.svg'  )" )
         .row.p-5
@@ -520,10 +505,6 @@
         .col-lg-7
           .texto
             p.h1.fw-normal.mb-5 ¿Conoces sobre los usos y el consumo de los contenidos digitales? 
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     p.mb-5 Estos contenidos pueden ser variados, debido a la gran influencia de los medios digitales que encuentras en el mundo virtual y digital. La identidad se puede determinar, de muchas maneras, teniendo en cuenta los contenidos, cómo los consumes y la frecuencia con que lo haces, que son los factores determinantes para analizar tus comportamientos digitales. A continuación, podrás profundizar un poco más sobre el tema.
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Redes sociales")
@@ -592,10 +573,6 @@
         .col-lg-9
           .texto
             p.h1.fw-normal.mb-5 ¿Sabías que los datos personales se refieren a toda la información que identifique a un individuo o persona?  
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     p.my-5 Estos datos hacen referencia a tu número de identificación, dónde naciste, tu edad, sexo, estado civil, qué has estudiado, dónde trabajas, e incluso mucha información sensible que solo te compete a ti, como tus preferencias sexuales, tu personalidad, cómo has estado de salud últimamente, qué religión profesas, entre otra, e innumerables características que hacen tu “YO”. Hay que tener presente que no todos los datos pueden ser compartidos; además, se requiere de tu autorización para que puedan ser utilizados.
     .borders.py-3.mb-5
       .row.mb-5.justify-content-between.align-items-center
@@ -614,21 +591,34 @@
     p.mb-5 Cabe resaltar que la información que entregas es necesaria para que puedas interactuar con los demás, como ser social y perteneciente a una comunidad, es lo que te individualiza como persona frente al resto de la sociedad; esto hace que la información sea necesaria para construir el desarrollo económico de un país y  que “existas”, para poder ejercer tanto tus derechos como tus deberes. Debes, por lo tanto, entender qué tipos de datos existen:
     .row.mb-5
       .col-lg-3.mb-4
-        .tarjeta.bg--3.p-4.h-100.hover
-          h4 Dato público
-          p Son los que puedes entregar a una persona, organización o entidad, ya sea pública o privada, para poder identificarte, y están enmarcados en la ley bajo la protección de la Constitución Política
+        .tarjeta.tarjeta--hover.bg--3.p-4.h-100.hover
+          .img--hover
+            img(src='@/assets/curso/100.svg', alt='Texto que describa la imagen')
+          .contenido
+            h4 Dato público
+            p Son los que puedes entregar a una persona, organización o entidad, ya sea pública o privada, para poder identificarte, y están enmarcados en la ley bajo la protección de la Constitución Política
       .col-lg-3.mb-4
-        .tarjeta.bg--3.p-4.h-100.hover
-          h4 Dato semiprivado
-          p Son aquellos que puedes entregar en un grupo de personas y que están destinados con fines sociales, no son íntimos o reservados ni públicos.
+        .tarjeta.tarjeta--hover.bg--3.p-4.h-100.hover
+          .img--hover
+            img(src='@/assets/curso/101.svg', alt='Texto que describa la imagen')
+
+          .contenido
+            h4 Dato semiprivado
+            p Son aquellos que puedes entregar en un grupo de personas y que están destinados con fines sociales, no son íntimos o reservados ni públicos.
       .col-lg-3.mb-4
-        .tarjeta.bg--3.p-4.h-100.hover
-          h4 Dato privado
-          p Son los datos que solo te pertenecen a ti, y tú decides si entregarlos o no. Son de naturaleza reservada y sólo pueden interesar en grupos muy cerrados.
+        .tarjeta.tarjeta--hover.bg--3.p-4.h-100.hover
+          .img--hover
+            img(src='@/assets/curso/102.svg', alt='Texto que describa la imagen')
+          .contenido
+            h4 Dato privado
+            p Son los datos que solo te pertenecen a ti, y tú decides si entregarlos o no. Son de naturaleza reservada y sólo pueden interesar en grupos muy cerrados.
       .col-lg-3.mb-4
-        .tarjeta.bg--3.p-4.h-100.hover
-          h4 Dato sensible
-          p El de mayor cuidado. Hacen parte de tu personalidad muy íntima, y tu salud mental y psicológica puede verse afectada si son manipulados por terceros con malas intenciones.
+        .tarjeta.tarjeta--hover.bg--3.p-4.h-100.hover
+          .img--hover
+            img(src='@/assets/curso/103.svg', alt='Texto que describa la imagen')
+          .contenido
+            h4 Dato sensible
+            p El de mayor cuidado. Hacen parte de tu personalidad muy íntima, y tu salud mental y psicológica puede verse afectada si son manipulados por terceros con malas intenciones.
     p.mb-5 En Colombia existe la Ley 1581 de 2012, por la cual se rigen todas las disposiciones para la protección de datos personales, se invita a que la revises para que puedas saber cómo el estado te protege y para que no sean vulnerados tus derechos, de igual manera, para que puedas cumplir tus deberes como un buen ciudadano. A veces pensamos que, en Internet, <b>“todo se vale”</b>, pero no, los países han reglado y dictado normas para el buen uso de la información personal y sensible, asimismo, existen normas de comportamiento propias de los medios digitales, como la <b>netiqueta</b>.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -645,10 +635,6 @@
         .col-lg-9
           .texto
             p.h1.fw-normal.mb-5 ¿Sabías que para comunicarte de manera adecuada en la red debes seguir las siguientes reglas?
-            .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     h3(data-aos='fade-right') Netiqueta comportamiento en la web
     .tarjeta.bg--3-claro-2.p-4.mb-5
       LineaTiempoC.color-primario(text-small)
@@ -876,4 +862,13 @@ export default {
 .borders
   border-top: 2px solid $color-acento-contenido
   border-bottom: 2px solid $color-acento-contenido
+.tarjeta--hover
+
+  .contenido
+    display: none
+  &:hover
+    .img--hover
+      display: none
+    .contenido
+      display: block
 </style>
