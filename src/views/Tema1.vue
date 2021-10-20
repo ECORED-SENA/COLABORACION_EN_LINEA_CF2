@@ -10,7 +10,7 @@
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__1: img(src='@/assets/curso/1.png', alt='Texto que describa la imagen' style='width: 196px')
       .row.justify-content-end
-        .col-lg-9
+        .col-xl-9
           .texto
             p.h1.fw-normal 
               b ¿Conoces cómo impacta tu identidad digital el comportamiento en la red? 
@@ -30,7 +30,7 @@
       .contenedor.bg--2-claro-2.p-5.my-5
         .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
         .row.justify-content-start
-          .col-lg-8
+          .col-xl-8
             .texto
               p.h1.fw-normal
                 b ¿Conoces qué son los perfiles digitales y el impacto que estos tienen para tu vida? 
@@ -103,7 +103,7 @@
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__3: img(src='@/assets/curso/11.svg', alt='Texto que describa la imagen' style='width: 295px')
       .row.justify-content-end
-        .col-lg-9
+        .col-xl-9
           .texto
             p.h1.fw-normal 
               b ¿Sabías qué la información en la red es conocida de forma personal y directa, haciendo esto una visión de identidad pública? 
@@ -148,7 +148,7 @@
       .col-lg-5(data-aos='fade-right')
         .contenedor-comillas.bg--1-claro.p-5
           i.fas.fa-quote-left
-          p.text-end Según Georges (2010), en su libro Identités virtuelles: les profils utilisateurs du web 2.0 (Identidades virtuales: los perfiles utilizados en la Web 2.0), presume que una identidad digital está constituida por diferentes tipos de datos, independientemente de si los usuarios tienen o no la intención de publicarlos, lo que da realmente lugar a una clasificación que es la identidad declarada (que se compone de la información que un individuo hace de dominio público), la identidad actuante (son las acciones que se llevan a cabo), y por otra parte la identidad calculada o inferida (determinada por la analítica de datos de lo que se publica); es así como  toda información puede ser utilizada para hacerse una idea de quién es y qué le gusta a un individuo que usa los medios digitales.
+          p.text-end Según Georges (2010), en su libro <i>Identités virtuelles: les profils utilisateurs du</i> web 2.0 (Identidades virtuales: los perfiles utilizados en la Web 2.0), presume que una identidad digital está constituida por diferentes tipos de datos, independientemente de si los usuarios tienen o no la intención de publicarlos, lo que da realmente lugar a una clasificación que es la identidad declarada (que se compone de la información que un individuo hace de dominio público), la identidad actuante (son las acciones que se llevan a cabo), y por otra parte la identidad calculada o inferida (determinada por la analítica de datos de lo que se publica); es así como  toda información puede ser utilizada para hacerse una idea de quién es y qué le gusta a un individuo que usa los medios digitales.
           .contenedor-autor.d-flex.align-items-end.justify-content-end
             p.text-end
               b Georges (2010)
@@ -167,7 +167,7 @@
         .tarjeta.bg--2-claro.p-4.mb-4.h-100.hover
           img(src='@/assets/curso/20.svg', alt='Texto que describa la imagen' style='width: 67px').mb-3
           .h4 Comportamiento
-          p Se deriva de lo que haces frecuentemente en Internet, tus historiales de navegación, geolocalización, transacciones financieras, compras, ventas, accesos a plataformas, datos de call center, entre otros.
+          p Se deriva de lo que haces frecuentemente en Internet, tus historiales de navegación, geolocalización, transacciones financieras, compras, ventas, accesos a plataformas, datos de <i>call center</i>, entre otros.
       .col-lg-3.mb-3
         .tarjeta.bg--2-claro.p-4.mb-4.h-100.hover
           img(src='@/assets/curso/21.svg', alt='Texto que describa la imagen' style='width: 67px').mb-3
@@ -194,9 +194,9 @@
       h2 1.3 Elementos de la identidad digital
     .contenedor.bg--1-claro.p-5.my-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
-      .contenedor-img__4.d-none.d-lg-block: img(src='@/assets/curso/24.svg', alt='Texto que describa la imagen' style='width: 295px')
+      .contenedor-img__4: img(src='@/assets/curso/24.svg', alt='Texto que describa la imagen' style='width: 295px')
       .row.justify-content-end
-        .col-lg-9
+        .col-xl-9
           .texto
             p.h1.fw-normal ¿Sabes que existen muchos elementos con los cuales puedes construir tu identidad digital en las diferentes plataformas comunicativas y colaborativas? 
             .wrap-player
@@ -274,7 +274,7 @@
         li 
           .lista-ol--cuadro__vineta
             span d
-          | Cuál es tu vínculo y cómo interactúas con todos ellos (cómo aportas y qué te aportan).
+          | Hasta un comentario puede ser crucial a la hora de hacer identidad digital.
     p.mb-5 Todo esto debido a que, en la sociedad de la información, todo es valorado positiva o negativamente, independientemente de los roles que ejerzas.
       br
       |A continuación, en la siguiente gráfica, se presentan algunos roles valorados por las empresas y que pueden ser de tu interés y colaboración en el entorno social que te desenvuelves.
@@ -287,7 +287,7 @@
           .avatar-1
             img(src='@/assets/curso/25.svg' alt='AvatarTop')
           .mt-5
-            h3 Data Science
+            h3.fst-italic Data Science
             p.mb-0 Resuelve problemas a partir del análisis de datos. 
               br
               |Son profesionales con curiosidad y capacidad de análisis.
@@ -298,7 +298,7 @@
           .mt-5
             h3 Arquitecto
               br
-              |Big Data
+              |<i>Big Data</i>
             p.mb-0 Gestiona, procesa y almacena datos que se generan en Internet. Son profesionales arquitectos, analistas y desarrolladores. 
       .col-lg-4.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
@@ -306,7 +306,7 @@
             img(src='@/assets/curso/27.svg' alt='AvatarTop')
           .mt-5
             h3 Especialista en SEO
-            p.mb-0 Impulsa sitios web en Internet y analiza la competencia. Son profesionales que identifican objetivos, mercado nicho y palabras clave.
+            p.mb-0 Impulsa sitios <i>web</i> en Internet y analiza la competencia. Son profesionales que identifican objetivos, mercado nicho y palabras clave.
     .row.my-3
       .col-lg-4.margin-bottom.margin-top
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
@@ -315,8 +315,8 @@
           .mt-5
             h3 Experto en
               br
-              |analítica web 
-            p.mb-0 Mide, recopila y analiza datos que produce la web. Son ingenieros, matemáticos y estadísticos con manejo de herramientas web.
+              |analítica <i>web</i> 
+            p.mb-0 Mide, recopila y analiza datos que produce la <i>web</i>. Son ingenieros, matemáticos y estadísticos con manejo de herramientas <i>web</i>.
       .col-lg-4.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
@@ -325,29 +325,29 @@
             h3 Editor de
               br
               |contenidos
-            p.mb-0 Se documenta y sigue las novedades de su nicho de mercado para generar contenidos. Son profesionales capaces de identificar objetivos, mercado nicho y palabras clave
+            p.mb-0 Se documenta y sigue las novedades de su nicho de mercado para generar contenidos. Son profesionales capaces de identificar objetivos, mercado nicho y palabras clave.
       .col-lg-4.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
             img(src='@/assets/curso/30.svg' alt='AvatarTop')
           .mt-5
-            h3 Community manager 
+            h3.fst-italic Community manager 
             p.mb-0 Experto en RRSS, conoce la empresa, sus objetivos, clientes y productos. Son profesionales que acercan a la compañía a la sociedad, generando debates y respondiendo problematizaciones de los clientes.
       .col-lg-12.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
             img(src='@/assets/curso/31.svg' alt='AvatarTop')
           .mt-5
-            h3 Director de marketing 
+            h3 Director de <i>arketing</i> 
             p.mb-0 Crea campañas de promoción de productos y servicios. Tiene dominio de varios idiomas. Tiene gran conocimiento de todos los medios y canales digitales.
     #t_1_4.titulo-segundo(data-aos='fade-right')
       h2 1.4 Tipos de identidad digital
     
     .contenedor.bg--2-claro-2.p-5.my-5
-      .contenedor-img__5: img(src='@/assets/curso/32.svg', alt='Texto que describa la imagen' style='width: 480px')
+      .contenedor-img__5: img(src='@/assets/curso/32.svg', alt='Texto que describa la imagen' style='width: 400px')
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .row.justify-content-end
-        .col-lg-7
+        .col-xl-7
           .texto
             p.h1.fw-normal.mb-5 ¿Sabes por qué es importante conocer los tipos de identidad digital? 
     .row.justify-content-center.mb-5
@@ -418,7 +418,7 @@
                 .col-lg-4: img(src='@/assets/curso/40.jpg')
                 .col-lg-8
                   h4 Contextual
-                  p Depende de los contextos sociales en que se desenvuelven las personas, son los perfiles que realice y comparta con los demás
+                  p Depende de los contextos sociales en que se desenvuelven las personas, son los perfiles que realice y comparta con los demás.
             .carousel-item
               .row
                 .col-lg-4: img(src='@/assets/curso/41.jpg')
@@ -454,7 +454,7 @@
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__5: img(src='@/assets/curso/45.svg', alt='Texto que describa la imagen' style='width: 370px')
       .row.justify-content-end
-        .col-lg-8
+        .col-xl-8
           .texto
             p.h1.fw-normal.mb-5 
               b ¿Sabes que la identidad digital tiene diferentes tipos y que estos posibilitan su integración en los ámbitos profesionales y sociales? 
@@ -476,7 +476,7 @@
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             h4 Ficticia
-            p Puede sonar a ilegal o delincuencial, pero no es así. Aunque es la modalidad que usan los hackers y delincuentes informáticos, no es solo propia de estos, también se puede utilizar en contextos culturales y artísticos, bajo seudónimos que protegen la información real. Se comparte información por medio de perfiles que representan de manera onírica o fantástica la realidad de los usuarios que los crean; aunque no se desconoce que es la práctica más frecuente de los ciberdelincuentes.
+            p Puede sonar a ilegal o delincuencial, pero no es así. Aunque es la modalidad que usan los <i>hackers</i> y delincuentes informáticos, no es solo propia de estos, también se puede utilizar en contextos culturales y artísticos, bajo seudónimos que protegen la información real. Se comparte información por medio de perfiles que representan de manera onírica o fantástica la realidad de los usuarios que los crean; aunque no se desconoce que es la práctica más frecuente de los ciberdelincuentes.
           .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/49.jpg')
       .py-4.py-md-5(titulo="Organizacional / Empresarial" :icono="require('@/assets/curso/40.svg')" :icono2="require('@/assets/curso/41.svg'  )" )
         .row.p-5
@@ -500,9 +500,9 @@
       h2 1.5 Uso y consumo de contenidos
     .contenedor.bg--2-claro-2.p-5.my-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
-      .contenedor-img__6: img(src='@/assets/curso/53.svg', alt='Texto que describa la imagen' style='width: 293px')
+      .contenedor-img__6: img(src='@/assets/curso/53.svg', alt='Texto que describa la imagen' style='width: 240px')
       .row.justify-content-end
-        .col-lg-7
+        .col-xl-7
           .texto
             p.h1.fw-normal.mb-5 ¿Conoces sobre los usos y el consumo de los contenidos digitales? 
     p.mb-5 Estos contenidos pueden ser variados, debido a la gran influencia de los medios digitales que encuentras en el mundo virtual y digital. La identidad se puede determinar, de muchas maneras, teniendo en cuenta los contenidos, cómo los consumes y la frecuencia con que lo haces, que son los factores determinantes para analizar tus comportamientos digitales. A continuación, podrás profundizar un poco más sobre el tema.
@@ -522,14 +522,14 @@
               img(src='@/assets/curso/55.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
             h4 Blogs
-            p Este contenido es tipo diario o bitácora. Muchos usuarios comparten información cronológica, no solo en el ámbito personal, sino profesional y empresarial. Este consumo de servicios se alterna con otros para poder dar más soporte a tu identidad personal, como un aliado estratégico a la hora de comunicar y compartir información. Su nombre proviene de los barcos navíos que llevaban un registro de lo que aconteció durante la navegación, registrando día a día lo que sucedía. Por esta razón, su estructura funcional radica en fechas, entradas y posts.
-      .py-3.py-md-4(titulo="Portales web")
+            p Este contenido es tipo diario o bitácora. Muchos usuarios comparten información cronológica, no solo en el ámbito personal, sino profesional y empresarial. Este consumo de servicios se alterna con otros para poder dar más soporte a tu identidad personal, como un aliado estratégico a la hora de comunicar y compartir información. Su nombre proviene de los barcos navíos que llevaban un registro de lo que aconteció durante la navegación, registrando día a día lo que sucedía. Por esta razón, su estructura funcional radica en fechas, entradas y <i>posts</i>.
+      .py-3.py-md-4(titulo="Portales de noticias y sitios <i>web</i>")
         .row.px-5
           .col-md-5
             figure
               img(src='@/assets/curso/56.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Portales de noticias y sitios web
+            h4 Portales de noticias y sitios <i>web</i>
             p Todos los documentos electrónicos que visitas en la red pueden generar una identidad digital. A través de las suscripciones, entregas datos personales, que pueden ser recuperados para observar tu comportamiento; luego, buscadores como Google o Bing los indexan y te presentan contenido, según tu preferencia, para que lo consumas, desde artículos, productos y servicios, hasta tu música favorita.
       .py-3.py-md-4(titulo="Correo electrónico")
         .row.px-5
@@ -539,7 +539,7 @@
           .col-md-7.mb-4.mb-md-0
             h4 Correo electrónico
             p Esta forma de comunicarte en línea ha transformado cualquier límite o frontera, y es tal vez lo que usas con más frecuencia y donde más compartes información. Es por ello que frecuentemente recibes mensajes y notificaciones en tu buzón, advirtiendo una promoción o lo que te gusta, ya que los bots, o recopiladores de información, se entregan a proveedores para que te realicen estas alertas; hasta puedes personalizar qué te llega o qué no, incluso cuando el acceso se haga con un usuario y una contraseña, a través de la analítica de datos y la ingeniería social. Con un solo clic y un mensaje, ya tu identidad se empieza a marcar más y más.
-      .py-3.py-md-4(titulo="Contenido")
+      .py-3.py-md-4(titulo="Textos, fotos o videos y repositorios")
         .row.px-5
           .col-md-5
             figure
@@ -547,7 +547,7 @@
           .col-md-7.mb-4.mb-md-0
             h4 Textos, fotos o videos y repositorios
             p El consumo masivo de información en portales de entretenimiento, ocio y trabajo es impresionante; existen portales de almacenamiento donde puedes recuperar todo tipo de datos, desde gratuitos hasta los llamados premium o pagos. Los formularios de registro, a través de la solicitud de información que poseen, analizan lo que hayas consignado para sugerirte qué necesitas mientras estás navegando en ellos.
-      .py-3.py-md-4(titulo="Video juegos")
+      .py-3.py-md-4(titulo="Videojuegos")
         .row.px-5
           .col-md-5
             figure
@@ -568,15 +568,15 @@
       h2 1.6 Leyes y tratamiento de datos
     .contenedor.bg--2-claro-2.p-5.mb-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
-      .contenedor-img__7: img(src='@/assets/curso/61.svg', alt='Texto que describa la imagen' style='width: 293px')
+      .contenedor-img__7: img(src='@/assets/curso/61.svg', alt='Texto que describa la imagen' style='width: 230px')
       .row.justify-content-end
-        .col-lg-9
+        .col-xl-9
           .texto
             p.h1.fw-normal.mb-5 ¿Sabías que los datos personales se refieren a toda la información que identifique a un individuo o persona?  
     p.my-5 Estos datos hacen referencia a tu número de identificación, dónde naciste, tu edad, sexo, estado civil, qué has estudiado, dónde trabajas, e incluso mucha información sensible que solo te compete a ti, como tus preferencias sexuales, tu personalidad, cómo has estado de salud últimamente, qué religión profesas, entre otra, e innumerables características que hacen tu “YO”. Hay que tener presente que no todos los datos pueden ser compartidos; además, se requiere de tu autorización para que puedan ser utilizados.
     .borders.py-3.mb-5
       .row.mb-5.justify-content-between.align-items-center
-        .col-xl-5.mb-5
+        .col-xl-6.mb-5
           .bloque-texto-b.color-primario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
@@ -632,7 +632,7 @@
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__8: img(src='@/assets/curso/63.svg', alt='Texto que describa la imagen' style='width: 293px')
       .row.justify-content-end
-        .col-lg-9
+        .col-xl-9
           .texto
             p.h1.fw-normal.mb-5 ¿Sabías que para comunicarte de manera adecuada en la red debes seguir las siguientes reglas?
     h3(data-aos='fade-right') Netiqueta comportamiento en la web

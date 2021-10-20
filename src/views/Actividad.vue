@@ -11,11 +11,11 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 1
-        p.mb-4 La actividad planteada consiste en organizar dos columnas, una con el encabezado “PÚBLICO”, y la otra, “PRIVADO”. Se le entregan al aprendiz diferentes palabras o términos y él/ella debe ubicarlas bajo la columna a la que pertenezcan. Así, podrá identificar las dimensiones que pueden tener los perfiles digitales y gestionar su identidad digital en los medios digitales que se presentan en todo el componente formativo.
+        p.mb-4 Identificar los conceptos de público y privado para poder gestionar perfiles digitales estructurados y eficientes que permitan que un usuario sea buen ciudadano digital.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Relacionar Conceptos 
+              p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad-1/story.html')" target="_blank")
                 span Realizar
@@ -28,11 +28,11 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 2
-        p.mb-4 La actividad planteada consiste en realizar un crucigrama con pistas verticales y horizontales, con características propias de las TI. El objetivo es que el aprendiz pueda reconocer la definición de cada uno de los términos y estos sean organizados en filas y columnas dentro del crucigrama.
+        p.mb-4 Repasar el contenido de la identidad digital para apropiarse de los conceptos vistos en el componente de formación.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Crucigrama
+              p.fw-bold.mb-0 Crucigrama de identidad digital
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad-2/story.html')" target="_blank")
                 span Realizar
