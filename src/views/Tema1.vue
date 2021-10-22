@@ -49,7 +49,7 @@
         p El consumo de todos los contenidos que se te presentan con las plataformas digitales, desde redes sociales, buscadores, sitios o portales web, apps móviles, videoconferencias, entre otras, va generando datos intrínsecos, que hacen dejar huella de tu información y así crear un perfil digital, sin saberlo, de forma inconsciente. Es por ello que es importante que estés consciente de qué se trata y cómo gestionarlo, para evitar riesgos y amenazas.
       .tarjeta.bg--1-claro.p-4(titulo="Transformaciones digitales").p-5
         h4 Transformaciones digitales
-        p La diversas oportunidades que se presentan con las transformaciones digitales son una prioridad en muchos gobiernos; y siendo parte de la sociedad actual, logran que todos los servicios de estas herramientas lleguen a muchas más personas y sean accesibles desde cualquier lugar y momento, lo que supone muchos desafíos, haciendo que personas, empresas, instituciones y el mismo gobierno deban poseer una identidad digital definida que abra las posibilidades a nuevas oportunidades.
+        p Las diversas oportunidades que se presentan con las transformaciones digitales son una prioridad en muchos gobiernos; y siendo parte de la sociedad actual, logran que todos los servicios de estas herramientas lleguen a muchas más personas y sean accesibles desde cualquier lugar y momento, lo que supone muchos desafíos, haciendo que personas, empresas, instituciones y el mismo Gobierno deban poseer una identidad digital definida que abra las posibilidades a nuevas oportunidades.
       .tarjeta.bg--1-claro.p-4(titulo="Intimidad de la información").p-5
         h4 Intimidad de la información
         p Los nuevos ciudadanos digitales, o llamados internautas, adquieren nuevos comportamientos sobre la privacidad, ya que se ve afectada, de cierta forma, la intimidad de la información, debido a la tendencia marcada a querer compartir todo, ya sea con tu permiso o no, todos tus datos, con empresas y tus contactos.
@@ -164,9 +164,7 @@
         .tarjeta.bg--2-claro.p-4.mb-4.h-100.hover
           img(src='@/assets/curso/19.svg', alt='Texto que describa la imagen' style='width: 67px').mb-3
           .h4 Identidad individual o personal
-          p Identidad individual o personal
-            br
-            |Es aquella que tiene variables personales que identifican a una persona, tales como su nombre, sus apellidos, sexo, altura, su número de identificación, sus credenciales bancarias, fecha de nacimiento, entre otras particulares, así como los sitios que frecuentemente visita, como indicador social del tejido de una comunidad.
+          p Identidad individual o personal es aquella que tiene variables personales que identifican a una persona, tales como su nombre, sus apellidos, sexo, altura, su número de identificación, sus credenciales bancarias, fecha de nacimiento, entre otras particulares, así como los sitios que frecuentemente visita, como indicador social del tejido de una comunidad.
       .col-lg-3.mb-3
         .tarjeta.bg--2-claro.p-4.mb-4.h-100.hover
           img(src='@/assets/curso/20.svg', alt='Texto que describa la imagen' style='width: 67px').mb-3
@@ -240,7 +238,7 @@
             .lista-numerada__numero.p-4
               h2.text-white.mb-0 6
             .lista-numerada__texto.ms-2
-              p.mb-0 Información personal y laboral .
+              p.mb-0 Información personal y laboral.
           .lista-numerada.d-flex.align-items-center.mb-2
             .lista-numerada__numero.p-4
               h2.text-white.mb-0 7 
@@ -342,7 +340,7 @@
           .avatar-1
             img(src='@/assets/curso/31.svg' alt='AvatarTop')
           .mt-5
-            h3 Director de <i>arketing</i> 
+            h3 Director de <i>marketing</i> 
             p.mb-0 Crea campañas de promoción de productos y servicios. Tiene dominio de varios idiomas. Tiene gran conocimiento de todos los medios y canales digitales.
     #t_1_4.titulo-segundo(data-aos='fade-right')
       h2 1.4 Tipos de identidad digital
@@ -365,7 +363,7 @@
             img(src="@/assets/curso/33.svg" style="width: 277px").m-auto
           .bloque-texto-g__texto.p-4
             p.mb-0
-              b  Antes de entrar a mirar los tipos de identidad que existen en el mundo digital, es importante que conozcas que las experiencias online de cada uno de los usuarios son diferentes y toman actitudes propias evaluadas desde su comportamiento en la red, desde la hiperactividad en todos sus servicios hasta incluso la ausencia total de participación. Como sabes, las interacciones digitales son cada vez más rápidas e inmersivas, este tipo de comunicaciones se hacen cada vez más masivas, y las conexiones síncronas son más frecuentes y enriquecedoras, porque el estar en tiempo real, no solo en voz sino en audio y video, hace que la experiencia sea mucho más atractiva e incluso adictiva.
+              b  Antes de entrar a mirar los tipos de identidad que existen en el mundo digital, es importante que conozcas que las experiencias <i>online</i> de cada uno de los usuarios son diferentes y toman actitudes propias evaluadas desde su comportamiento en la red, desde la hiperactividad en todos sus servicios hasta incluso la ausencia total de participación. Como sabes, las interacciones digitales son cada vez más rápidas e inmersivas, este tipo de comunicaciones se hacen cada vez más masivas, y las conexiones síncronas son más frecuentes y enriquecedoras, porque el estar en tiempo real, no solo en voz sino en audio y video, hace que la experiencia sea mucho más atractiva e incluso adictiva.
     p.mb-5 La identidad digital ofrece muchas más posibilidades para interactuar con más elementos que se parecen a la realidad tangible de interrelacionarse, debido a que puedes saber qué piensan, sienten, hacen o creen las personas con las que te relacionas, y ello contribuye, sin lugar a dudas, a construir y poder configurar tu propia identidad digital e, igualmente, la colectiva, dentro de un grupo social, a pesar de que dicha identidad puede ser inexacta, debido paradójicamente a la gran cantidad de información. Las características de la identidad digital son:
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -623,7 +621,7 @@
             img(src='@/assets/curso/102.svg', alt='Texto que describa la imagen')
           .contenido
             h4 Dato privado
-            p Son los datos que solo te pertenecen a ti, y tú decides si entregarlos o no. Son de naturaleza reservada y sólo pueden interesar en grupos muy cerrados.
+            p Son los datos que solo te pertenecen a ti, y tú decides si entregarlos o no. Son de naturaleza reservada y solo pueden interesar en grupos muy cerrados.
       .col-lg-3.mb-4
         .tarjeta.tarjeta--hover.bg--3.p-4.h-100.hover
           .img--hover
