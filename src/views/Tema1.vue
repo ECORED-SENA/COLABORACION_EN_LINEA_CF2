@@ -17,7 +17,7 @@
               | Ingresa al siguiente recurso para que conozcas su impacto y cómo gestionar tu privacidad.
             .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A1.wav' type='audio/wav')
+                  source(src='../../public/downloads/A1.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
     br
     br
@@ -37,7 +37,7 @@
                 | En el siguiente recurso se realiza una exploración sobre la presencia que se tiene en la era digital.
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A4.wav' type='audio/wav')
+                  source(src='../../public/downloads/A4.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
         .contenedor-img__2: img(src='@/assets/curso/8.png', alt='Texto que describa la imagen' style='width: 337px')
     TabsA.color-acento-contenido.mb-5
@@ -203,7 +203,7 @@
             p.h1.fw-normal ¿Sabes que existen muchos elementos con los cuales puedes construir tu identidad digital en las diferentes plataformas comunicativas y colaborativas? 
             .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A2.wav' type='audio/wav')
+                  source(src='../../public/downloads/A2.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
     .row.justify-content-end.mb-5
       .col-lg-8
@@ -354,7 +354,7 @@
             p.h1.fw-normal.mb-5 ¿Sabes por qué es importante conocer los tipos de identidad digital? 
             .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A7.wav' type='audio/wav')
+                  source(src='../../public/downloads/A7.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -513,7 +513,7 @@
             p.h1.fw-normal.mb-5 ¿Conoces sobre los usos y el consumo de los contenidos digitales? 
             .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A6.wav' type='audio/wav')
+                  source(src='../../public/downloads/A6.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
     p.mb-5 Estos contenidos pueden ser variados, debido a la gran influencia de los medios digitales que encuentras en el mundo virtual y digital. La identidad se puede determinar, de muchas maneras, teniendo en cuenta los contenidos, cómo los consumes y la frecuencia con que lo haces, que son los factores determinantes para analizar tus comportamientos digitales. A continuación, podrás profundizar un poco más sobre el tema.
     TabsC.color-acento-contenido.mb-5
@@ -647,7 +647,7 @@
             p.h1.fw-normal.mb-5 ¿Sabías que para comunicarte de manera adecuada en la red debes seguir las siguientes reglas?
             .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A5.wav' type='audio/wav')
+                  source(src='../../public/downloads/A5.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
     h3(data-aos='fade-right') Netiqueta comportamiento en la web
     .tarjeta.bg--3-claro-2.p-4.mb-5

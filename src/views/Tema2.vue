@@ -18,7 +18,7 @@
               | En el siguiente recurso, podrás conocer sobre los tipos de herramientas y sus usos. 
             .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A3.wav' type='audio/wav')
+                  source(src='../../public/downloads/A3.mp3' type='audio/wav')
                   |  Your browser does not support the audio tag.
     figure.mb-5
       .video
